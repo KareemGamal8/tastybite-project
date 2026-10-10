@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Details - TastyBite</title>
+  <meta name="description" content="View a TastyBite recipe with ingredients, instructions, rating, time, servings, and difficulty.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="home.html" aria-label="TastyBite home">
+        <span class="brand-mark">TB</span>
+        <span>TastyBite</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="home.html">Home</a>
+        <a class="nav-link active" href="index.html">Recipes</a>
+        <a class="nav-link" href="home.html#about">About</a>
+        <a class="btn btn-primary btn-small" href="index.html">Explore Recipes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-main">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="home.html">Home</a>
+      <span>/</span>
+      <a href="index.html">Recipes</a>
+      <span>/</span>
+      <span id="breadcrumb-name">Recipe Details</span>
+    </nav>
+
+    <article id="recipe-details" aria-live="polite"></article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="home.html">
+          <span class="brand-mark">TB</span>
+          <span>TastyBite</span>
+        </a>
+        <p>A beginner-friendly restaurant recipe website powered by DummyJSON.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="home.html">Home</a>
+        <a href="index.html">Recipes</a>
+        <a href="home.html#about">About</a>
+      </nav>
+      <p class="copyright">&copy; <span id="current-year"></span> TastyBite. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/home.js"></script>
+  <script src="assets/js/recipe-details.js"></script>
+</body>
+</html>
