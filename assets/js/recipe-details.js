@@ -36,7 +36,7 @@
       <div class="state-box">
         <h2>Recipe not found</h2>
         <p>The recipe ID is missing or invalid.</p>
-        <a class="btn btn-primary" href="index.html">Return to Recipes</a>
+        <a class="btn btn-primary" href="recipes.html">Return to Recipes</a>
       </div>
     `;
   }
@@ -102,7 +102,7 @@
           </section>
         </div>
 
-        <a class="btn btn-primary" href="index.html">Back to Recipes</a>
+        <a class="btn btn-primary" href="recipes.html">Back to Recipes</a>
       </section>
     `;
 

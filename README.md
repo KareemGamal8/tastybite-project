@@ -4,8 +4,8 @@ TastyBite is a small, polished restaurant recipe website built with HTML, CSS, V
 
 ## Pages
 
-- `home.html` - Landing page with a hero, popular recipes, and about section.
-- `index.html` - Recipe listing page with search, filters, sorting, result count, and pagination.
+- `index.html` - Landing page with a hero, popular recipes, and about section.
+- `recipes.html` - Recipe listing page with search, filters, sorting, result count, and pagination.
 - `recipe-details.html` - Recipe detail page loaded from the recipe ID in the URL.
 
 ## Features
@@ -24,8 +24,8 @@ TastyBite is a small, polished restaurant recipe website built with HTML, CSS, V
 
 ```text
 tastybite-project/
-|-- home.html
 |-- index.html
+|-- recipes.html
 |-- recipe-details.html
 |-- assets/
 |   |-- css/
@@ -84,7 +84,7 @@ Use VS Code Live Server or any simple static server.
 With VS Code Live Server:
 
 1. Open this folder in VS Code.
-2. Right-click `home.html`.
+2. Right-click `index.html`.
 3. Choose "Open with Live Server".
 
 With Python:
@@ -93,7 +93,7 @@ With Python:
 python -m http.server 8000
 ```
 
-Then open `http://localhost:8000/home.html`.
+Then open `http://localhost:8000/index.html`.
 
 ## Known Limitations
 
